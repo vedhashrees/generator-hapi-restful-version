@@ -18,7 +18,6 @@
     "hapi-versioning",
     "hapi-restful",
     "hapi-api"
-
   ],
   "repository": {
     "type": "git",
@@ -28,8 +27,8 @@
     "url": "https://github.com/vedhashrees/generator-hapi-restful-version/issues"
   },
   "author": {
-      "name": "Katturaja Mookkan",
-      "email": "m.katturaja@gmail.com"
+    "name": "Katturaja Mookkan",
+    "email": "m.katturaja@gmail.com"
   },
   "contributors": [
     {
