@@ -1,5 +1,8 @@
 if (!global.config) {
-    global.config = require("konfig")();
+    const { join } = require("path");
+    global.config = require("konfig")({
+        path: join(__dirname, "config")
+    });
 }
 const Hapi = require('hapi');
 const server = new Hapi.Server();
