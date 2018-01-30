@@ -12,30 +12,31 @@
   },
   "keywords": [
     "yeoman-generator",
-	"hapi",
-	"joi",
-	"retire",
-	"hapi-versioning"
-	"hapi-restful"
-	"hapi-api"
-	
+    "hapi",
+    "joi",
+    "retire",
+    "hapi-versioning",
+    "hapi-restful",
+    "hapi-api"
+
   ],
-  "repository":{
-    "type":"git",
-	"url":"https://github.com/vedhashrees/generator-hapi-restful-version.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vedhashrees/generator-hapi-restful-version.git"
   },
-  "bugs":{
-	"url" :"https://github.com/vedhashrees/generator-hapi-restful-version/issues"
+  "bugs": {
+    "url": "https://github.com/vedhashrees/generator-hapi-restful-version/issues"
   },
-  "author": [{
-				"name" : "Katturaja Mookkan",
-				"email":"m.katturaja@gmail.com",
-				"url":""
-			    },
-				{"name" : "Vedhashree Sampath",
-				 "email":"shreevedhas@gmail.com",
-				 "url":""
-			}]
+  "author": {
+      "name": "Katturaja Mookkan",
+      "email": "m.katturaja@gmail.com"
+  },
+  "contributors": [
+    {
+      "name": "Vedhashree Sampath",
+      "email": "shreevedhas@gmail.com"
+    }
+  ],
   "license": "Apache-2.0",
   "dependencies": {
     "inquirer": "^5.0.1",

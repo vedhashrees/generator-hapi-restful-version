@@ -6,17 +6,17 @@
 ## Installation 
   Install the following two packages globally as below.
 ```sh
- $ npm install yeoman -g
+ $ npm install yo -g
  $ npm install retire -g
  $ npm install gulp -g
- $ npm install generator-sispcloud -g
+ $ npm install generator-hapi-restful-version -g
 ```
 
 ## Usage:
 1) To generate the skeleton of a Hapi REST API service node project , use the following command
 
 ```sh
-  $ yo sispcloud:hapiApiService
+  $ yo hapi-restful-version:hapiApiService
 ```
 
 ![step1](https://user-images.githubusercontent.com/29759244/35551559-b042ce12-05b5-11e8-85ff-eab07e06bb85.PNG)
@@ -25,7 +25,7 @@
 2) To generate a Hapi REST API service with a new version , use the following command
 
 ```sh
-  $ yo sispcloud:hapiApiVersion
+  $ yo hapi-restful-version:hapiApiVersion
 ```
 
 ![step2](https://user-images.githubusercontent.com/29759244/35551574-c16dfefa-05b5-11e8-9a67-3fe5d3b15c40.PNG)
@@ -33,7 +33,7 @@
 3) To generate a Hapi REST API service with a new module , use the following command
 
 ```sh
-  $ yo sispcloud:hapiApiModule
+  $ yo hapi-restful-version:hapiApiModule
 ```
 
 ![step3](https://user-images.githubusercontent.com/29759244/35551593-d0cf232e-05b5-11e8-961f-b5cd495c513d.PNG)
