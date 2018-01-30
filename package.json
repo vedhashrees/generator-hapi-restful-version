@@ -1,0 +1,46 @@
+{
+  "name": "generator-hapi-restful-version",
+  "version": "1.0.0",
+  "description": "Generator for creating generic hapi restful service project",
+  "files": [
+    "generators/hapiApiService",
+    "generators/hapiApiVersion",
+    "generators/hapiApiModule"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "yeoman-generator",
+	"hapi",
+	"joi",
+	"retire",
+	"hapi-versioning"
+	"hapi-restful"
+	"hapi-api"
+	
+  ],
+  "repository":{
+    "type":"git",
+	"url":"https://github.com/vedhashrees/generator-hapi-restful-version.git"
+  },
+  "bugs":{
+	"url" :"https://github.com/vedhashrees/generator-hapi-restful-version/issues"
+  },
+  "author": [{
+				"name" : "Katturaja Mookkan",
+				"email":"m.katturaja@gmail.com",
+				"url":""
+			    },
+				{"name" : "Vedhashree Sampath",
+				 "email":"shreevedhas@gmail.com",
+				 "url":""
+			}]
+  "license": "Apache-2.0",
+  "dependencies": {
+    "inquirer": "^5.0.1",
+    "konfig": "^0.2.1",
+    "mkdirp": "^0.5.1",
+    "yeoman-generator": "^2.0.2"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "<%= appName %>",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "hapi": "^15.1.1",
+    "hoek": "^5.0.2",
+    "inert": "^4.0.2",
+    "konfig": "^0.2.1",
+    "joi":"^13.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.11",
+    "gulp": "^3.9.1",
+    "retire": "^1.4.0"
+  },
+  "scripts": {
+    "postinstall": "npm run scanNodeModule",
+    "prestart": "gulp",
+    "start": "npm run start:dev",
+    "start:dev": "nodemon server.js --name=\"myproject-v1.0\"",
+    "start:linux": "pm2 start server.js --name=\"myproject-v1.0\" -i 0 --node-args=\"--max-old-space-size=256\"",
+    "scanNodeModule": "retire ['-n -j -p -c']"
+  },
+  "author": "",
+  "license": "ISC"
+}

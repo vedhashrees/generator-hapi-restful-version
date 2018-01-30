@@ -1,0 +1,7 @@
+{
+    "default": {
+        "apiPort": "<%= apiPort %>",
+        "basePrefix": "/<%= basePrefix %>",
+        "apiVersion": "v<%= apiVersion %>"
+    }
+}

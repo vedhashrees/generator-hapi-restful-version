@@ -1,0 +1,12 @@
+[
+	{ 
+		"component": "hapi",
+		"identifiers" : { "issue": "3466"},
+		"justification" : "upgrade to hapi@16.1.1"
+	},
+	{
+		"component":"jquery",
+		"version": "1.8.1",
+		"justification": "We don't call the jquery"
+	}
+]

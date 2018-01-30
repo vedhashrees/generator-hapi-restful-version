@@ -1,0 +1,75 @@
+{
+    "default": {
+        "q": {
+            "hapiApiService": [{
+                    "type": "input",
+                    "name": "appName",
+                    "message": "Your project name",
+                    "default": "myproject"
+                },
+                {
+                    "type": "input",
+                    "name": "apiVersion",
+                    "message": "Enter your api service version:",
+                    "default": "1.0"
+                },
+                {
+                    "type": "input",
+                    "name": "apiPort",
+                    "message": "Your api service http port",
+                    "default": "0000"
+                },
+                {
+                    "type": "input",
+                    "name": "basePrefix",
+                    "message": "Your api base prefix",
+                    "default": "api"
+                },
+                {
+                    "type": "input",
+                    "name": "defaultModule",
+                    "message": "Your api default module name",
+                    "default": "default"
+                }
+            ],
+            "hapiApiVersion": [{
+                    "type": "input",
+                    "name": "appName",
+                    "message": "Your project name",
+                    "default": "myproject"
+                },
+                {
+                    "type": "input",
+                    "name": "apiVersion",
+                    "message": "Enter your api service version:",
+                    "default": "1.0"
+                },
+                {
+                    "type": "input",
+                    "name": "apiPort",
+                    "message": "Your api service http port",
+                    "default": "0000"
+                },
+                {
+                    "type": "input",
+                    "name": "basePrefix",
+                    "message": "Your api base prefix",
+                    "default": "api"
+                },
+                {
+                    "type": "input",
+                    "name": "defaultModule",
+                    "message": "Your api default module name",
+                    "default": "default"
+                }
+            ],
+            "hapiApiModule": [{
+                "type": "input",
+                "name": "defaultModule",
+                "message": "Your api new module name",
+                "default": "default"
+
+            }]
+        }
+    }
+}

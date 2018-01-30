@@ -1,0 +1,3 @@
+exports.<%= defaultModule %>Validator = {
+    
+}
