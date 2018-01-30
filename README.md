@@ -1,4 +1,4 @@
-# generator-sispcloud
+# generator-hapi-restful-version
 >This is a *yeoman generator* utility module to generate a sample hapi api service project.
 
 #### Note: This is tailored for our project requirements.
