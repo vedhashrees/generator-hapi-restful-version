@@ -1,6 +1,6 @@
 {
   "name": "generator-hapi-restful-version",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generator for creating generic hapi restful service project",
   "files": [
     "generators/hapiApiService",
